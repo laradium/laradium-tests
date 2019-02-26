@@ -6,8 +6,10 @@
 
 ### Installation
 
-- clone repository
-- run migrations
+- clone laradium-tests repository
+- clone laradium pacakges.
+- composer install
+- php artisan migrate
 - ./vendor/bin/phpunit
 
 ### Packages
