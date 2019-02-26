@@ -10,6 +10,9 @@
     "require": {
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
+        "laradium/laradium": "dev-master",
+        "laradium/laradium-content": "dev-master",
+        "laradium/laradium-permission": "dev-master",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0"
     },
@@ -58,5 +61,19 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../packages/laradium"
+        },
+        {
+            "type": "path",
+            "url": "../packages/laradium-content"
+        },
+        {
+          "type": "path",
+          "url": "../packages/laradium-permission"
+        }
+    ]
 }
