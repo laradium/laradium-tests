@@ -2,7 +2,7 @@
 
 - PHP >= 7.1
 - MySQL 5.6 or later (Maria DB 10.1 or later)
-- Laradium packages (laradium, laradium-content, laradium-permission)
+- Laradium packages (laradium, laradium-content)
 
 ### Installation
 
@@ -23,5 +23,4 @@ For specifics of each packages please read the documentation in the packages rep
 - packages
 -- laradium
 -- laradium-content
--- laradium-permission
 ```

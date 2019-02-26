@@ -12,11 +12,11 @@
         "fideloper/proxy": "^4.0",
         "laradium/laradium": "dev-master",
         "laradium/laradium-content": "dev-master",
-        "laradium/laradium-permission": "dev-master",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
@@ -70,10 +70,6 @@
         {
             "type": "path",
             "url": "../packages/laradium-content"
-        },
-        {
-          "type": "path",
-          "url": "../packages/laradium-permission"
         }
     ]
 }
